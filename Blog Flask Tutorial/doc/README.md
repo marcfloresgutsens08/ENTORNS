@@ -1,3 +1,5 @@
 # Documentació projecte BlogFlask
 
-[Model de dades](modeldedades.md)
+- [Model de dades](modeldedades.md)
+- Peticions Http
+- Mapa de peticions Http (Get / Post)
