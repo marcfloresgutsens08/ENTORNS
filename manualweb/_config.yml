@@ -1,0 +1,312 @@
+# Site settings
+title: Manual Web
+email: web@manualweb.net
+description: >
+  Tutoriales de programación en español.
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: https://www.manualweb.net # the base hostname & protocol for your site
+git_address: https://github.com/manualweb/manualweb
+git_edit_address: https://github.com/manualweb/manualweb/blob/master
+
+# Social
+twitter: http://twitter.com/manual_web
+facebook: http://www.facebook.com/manualweb
+youtube: http://youtube.com/lineadecodigo
+
+# SEO
+author: manual_web
+
+# theme options from https://bootswatch.com/
+# comment out this to use default Bootstrap
+bootwatch: lumen #paper
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+gems:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-time-to-read
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .idea/
+  - .gitignore
+  - README.md
+timezone: Europe/Madrid
+defaults:
+- scope:
+    path: _posts
+    type: posts
+  values:
+    layout: post
+    sectionid: blog
+
+- scope:
+    path: _asp
+    type: asp
+  values:
+    layout: asp
+    sectionid: asp
+    seo:
+      type: "WebPage"
+
+- scope:
+    path: _bootstrap
+    type: bootstrap
+  values:
+    layout: bootstrap
+    sectionid: bootstrap
+    seo:
+      type: "WebPage"
+
+- scope:
+    path: _css
+    type: css
+  values:
+    layout: css
+    sectionid: css
+    seo:
+      type: "WebPage"
+
+- scope:
+    path: _dart
+    type: dart
+  values:
+    layout: dart
+    sectionid: dart
+    seo:
+      type: "WebPage"
+
+- scope:
+    path: _dom
+    type: dom
+  values:
+    layout: dom
+    sectionid: dom
+    seo:
+      type: "WebPage"
+
+- scope:
+    path: _emberjs
+    type: emberjs
+  values:
+    layout: emberjs
+    sectionid: emberjs
+    seo:
+      type: "WebPage"
+
+- scope:
+    path: _java
+    type: java
+  values:
+    layout: java
+    sectionid: java
+    seo:
+      type: "WebPage"
+
+- scope:
+    path: _javaee
+    type: javaee
+  values:
+    layout: javaee
+    sectionid: javaee
+    seo:
+      type: "WebPage"
+
+- scope:
+    path: _javascript
+    type: javascript
+  values:
+    layout: javascript
+    sectionid: javascript
+    seo:
+      type: "WebPage"
+
+- scope:
+    path: _mongodb
+    type: mongodb
+  values:
+    layout: mongodb
+    sectionid: mongodb
+    seo:
+      type: "WebPage"
+
+- scope:
+    path: _flask
+    type: flask
+  values:
+    layout: flask
+    sectionid: flask
+    seo:
+      type: "WebPage"
+
+- scope:
+    path: _googlemaps
+    type: googlemaps
+  values:
+    layout: googlemaps
+    sectionid: googlemaps
+    seo:
+      type: "WebPage"
+
+- scope:
+    path: _html
+    type: html
+  values:
+    layout: html4
+    sectionid: html
+    seo:
+      type: "WebPage"
+
+- scope:
+    path: _html5
+    type: html5
+  values:
+    layout: html5
+    sectionid: html5
+    seo:
+      type: "WebPage"
+
+- scope:
+    path: _php
+    type: php
+  values:
+    layout: php
+    sectionid: php
+    seo:
+      type: "WebPage"
+
+- scope:
+    path: _python
+    type: python
+  values:
+    layout: python
+    sectionid: python
+    seo:
+      type: "WebPage"
+
+- scope:
+    path: _sql
+    type: sql
+  values:
+    layout: sql
+    sectionid: sql
+    seo:
+      type: "WebPage"
+
+- scope:
+    path: _svg
+    type: svg
+  values:
+    layout: svg
+    sectionid: svg
+    seo:
+      type: "WebPage"
+
+- scope:
+    path: _typescript
+    type: typescript
+  values:
+    layout: typescript
+    sectionid: typescript
+    seo:
+      type: "WebPage"
+
+- scope:
+    path: _xml
+    type: xml
+  values:
+    layout: xml
+    sectionid: xml
+    seo:
+      type: "WebPage"
+
+- scope:
+    path: _webapi
+    type: webapi
+  values:
+    layout: webapi
+    sectionid: webapi
+    seo:
+      type: "WebPage"
+
+collections:
+  java:
+    permalink: /:collection/:path/
+    output: true
+  javascript:
+      output: true
+  mongodb:
+      output: true
+  flask:
+      output: true
+  html:
+      output: true
+  html5:
+      output: true
+  svg:
+      output: true
+  typescript:
+      output: true
+  asp:
+      output: true
+  bootstrap:
+      output: true
+  css:
+      output: true
+  emberjs:
+      output: true
+  googlemaps:
+      output: true
+  javaee:
+      output: true
+  webapi:
+      output: true
+  xml:
+      output: true    
+  python:
+      output: true  
+  dom: 
+      output: true   
+  php: 
+      output: true   
+  sql: 
+      output: true   
+  dart: 
+      output: true   
+  posts:
+    permalink: /blog/:year/:month/:day/:title/
+    output: true
+
+lang: es_ES
+
+# Feed para más colecciones
+feed:
+  collections:
+    - html
+    - html5
+    - sql
+    - java
+    - javascript
+    - php
+    - mongodb
+    - flask
+    - svg
+    - typescript
+    - asp
+    - bootstrap
+    - css
+    - emberjs
+    - googlemaps
+    - javaee
+    - webapi
+    - xml
+    - python
+    - dom
+    - sql
+    - dart

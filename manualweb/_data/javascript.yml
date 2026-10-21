@@ -1,0 +1,79 @@
+- title: Introducción Javascript
+  docs:
+  - introduccion-javascript
+  - historia-de-javascript
+  - caracteristicas-javascript
+  - hola-mundo-javascript
+
+- title: Conceptos Básicos Javascript
+  docs:
+  - conceptos-basicos-javascript
+  - variables-javascript
+  - tipos-variables-javascript
+  - literales-javascript
+
+- title: Operadores Javascript
+  docs:
+  - operadores-javascript
+  - operadores-de-asignacion
+  - operadores-de-comparacion
+  - operadores-aritmeticos
+  - operadores-sobre-bits
+  - operadores-logicos
+  - otros-operadores-javascript
+#  - precedencia-operadores
+
+- title: Sentencias de Control
+  docs:
+  - estructuras-selectivas-javascript
+  - estructuras-repetitivas-javascript
+
+- title: Cadenas de Texto
+  docs:
+  - cadenas-de-texto-javascript
+  - busquedas-en-cadenas-de-texto
+  - manipular-cadenas-de-texto
+  - convertir-cadenas-de-texto
+
+- title: Números
+  docs:
+  - numeros-javascript
+  - objeto-number
+  - comprobar-numeros-javascript
+  - conversiones-con-numeros-javascript
+  - precision-de-decimales-en-javascript
+  - objeto-bigint
+  - objeto-math
+  - operaciones-avanzadas-del-objeto-math
+  - logaritmos-y-exponenciales
+  - operaciones-trigonometricas-e-hiperbolicas
+
+#- title: Fechas
+#  docs:
+#  - fechas-javascript
+
+- title: Funciones
+  docs:
+  - funciones-javascript
+  - parametros-en-funciones
+  - expresiones-de-funcion
+#  - funciones-flecha
+  - closures-javascript
+#  - patron-modulo
+#  - patron-currying
+
+- title: Promesas Javascript
+  docs:
+  - promesas-en-javascript
+# - concatenar-promesas
+
+#- title: Otros
+#  docs:
+#  - fechas-javascript
+#  - errores-javascript
+#  - objeto-math
+
+#- title: Contenido de Apoyo
+#  docs:
+#  - ejemplos-javascript
+#  - urls-javascript

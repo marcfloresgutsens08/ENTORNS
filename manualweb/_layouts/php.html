@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<div class="container">
+    <div class="row">
+
+
+      <div class="col-md-8 col-md-push-4">
+          <h1>{{ page.title }}</h1>
+          <img src="{{site.baseurl}}/img/logos/php.png" alt="Logo PHP" id="logo-manual" class="img-responsive">
+          <div id="markdown-content-container">{{ content }}</div>
+
+          <p class="text-center">
+            <br />
+            <a target="_blank" href="{{site.git_edit_address}}/{{ page.path }}" class="btn btn-default githubEditButton" role="button">
+              <i class="fa fa-pencil fa-lg"></i> Mejora esta página
+            </a>
+          </p>
+
+          {% include ads.html %}
+
+          <hr>
+          {% include section_nav.html items=site.data.php name="php" %}
+
+
+      </div>
+
+
+        <div class="col-md-4 col-md-pull-8">
+
+          {% include nav.html items=site.data.php site=site.php name="php" %}
+
+          <h2>Descargar</h2>
+          El manual se encuentra en continua revisión. Desde aquí puedes <a href="#" alt="descargar manual php en pdf">descargarte la última versión del <strong>Tutorial PHP</strong></a>.
+          <div id="book">
+            <a href="#" alt="descargar manual php en pdf">
+              <img src="/img/books/php-pdf.webp" alt="Descargar Manual PHP en PDF" class="img-responsive"/>
+            </a>
+          </div>
+          
+          {% include ads.html %}
+
+        </div>
+
+    </div>
+</div>
