@@ -1,0 +1,12 @@
+erDiagram
+    user || --o{ Post : id
+    user{
+        int id
+        string username
+        string password
+    }
+    Post {
+        date created
+        string title
+        string body
+    }
